@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prototype Store</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">About us</a>
+              </li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">News</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><i class="ti-search"></i></button></li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="#">Start Shopping!</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+
+  <main class="site-main">
+    
+    <!--================ Hero banner start =================-->
+    <section class="hero-banner">
+      <div class="container">
+        <div class="row no-gutters align-items-center pt-60px">
+          <div class="col-5 d-none d-sm-block">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/home/hero-banner.png" alt="">
+            </div>
+          </div>
+          <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+            <div class="hero-banner__content">
+              <h4>Store Title</h4>
+              <h1>Your Store Tagline</h1>
+              <p>A small introduction about the store.</p>
+              <a class="button button-hero" href="#">Browse Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero banner start =================-->
+
+    <!--================ Hero Carousel start =================-->
+    <section class="section-margin mt-0">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide1.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Product 1</h3>
+            <p>Item Category</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide2.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Product 2</h3>
+            <p>Item Category</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide3.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Product 3</h3>
+            <p>Item Category</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero Carousel end =================-->
+
+    <!-- ================ trending product section start ================= -->  
+    <section class="section-margin calc-60px">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Popular Item in the market</p>
+          <h2>Trending <span class="section-intro__style">Product</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div> 
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ trending product section end ================= -->  
+
+
+    <!-- ================ offer section start ================= --> 
+    <section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5">
+            <div class="offer__content text-center">
+              <h3>CODE: PROTOTYPE100</h3>
+              <h4>Country Wise Promotion here</h4>
+              <p>Promotional content additional information here.</p>
+              <a class="button button--active mt-3 mt-xl-4" href="#">Redeem Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ offer section end ================= --> 
+
+    <!-- ================ Best Selling item  carousel ================= --> 
+    <section class="section-margin calc-60px">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Popular Item in the market</p>
+          <h2>Best <span class="section-intro__style">Sellers</span></h2>
+        </div>
+        <div class="owl-carousel owl-theme" id="bestSellerCarousel">
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/product/product1.png" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <p>Product Category</p>
+                <h4 class="card-product__title"><a href="single-product.html">Product Name</a></h4>
+                <p class="card-product__price">$0.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ Best Selling item  carousel end ================= --> 
+
+    <!-- ================ Blog section start ================= -->  
+    <section class="blog">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Popular Item in the market</p>
+          <h2>Latest <span class="section-intro__style">News</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog1.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By Admin</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">Test News Title 1</a></h4>
+                <p>Test News Content 1</p>
+                <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog2.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By Admin</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">Test News Title 2</a></h4>
+                <p>Test News Content 2</p>
+                <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog3.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By Admin</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">Test News Title 3</a></h4>
+                <p>Test News Content 3</p>
+                <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ Blog section end ================= -->  
+
+    
+
+  </main>
+
+
+  <!--================ Start footer Area  =================-->	
+	<footer class="footer">
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">About Prototype</h4>
+							<p>
+								About prototype and mission in detail.
+							</p>
+							<p>
+								Further information. 
+							</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Quick Links</h4>
+							<ul class="list">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Shop</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Product</a></li>
+								<li><a href="#">Brand</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">Gallery</h4>
+							<ul class="list instafeed d-flex flex-wrap">
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+								<li><img src="img/gallery/r1.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Contact Us</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									Head Office
+								</p>
+								<p>Prototype Address</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									Phone Number
+								</p>
+								<p>
+									Number 1 <br>
+									Number 2
+								</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									Email
+								</p>
+								<p>
+									email1@prototype.com <br>
+									email2@prototype.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row d-flex">
+					<p class="col-lg-12 footer-text text-center">
+						
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made by Apratim Shukla.
+                    </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
